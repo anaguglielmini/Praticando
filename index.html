@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Praticando Tags</title>
+        <meta charset="utf-8">
+        <meta name="description" 
+        content="descrição utilizada por buscadores na hora de 
+        exibir o resultado da busca">        
+        <!-- a meta tag robots noindex serve para que a página 
+        não apareça nos resultados de busca. Um exemplo é para 
+        páginas internas como relatórios ou com dados pessoais.
+        é opcional se não houver motivo de sigilo -->
+        <meta name="robots" 
+        content="noindex, nofollow">
+        <!-- ao usar o nofollow, garante que o buscador não irá
+        associar os links da página ao conteúdo -->
+
+        <!-- meta viewport ajusta o site ao dispositivo do usuário.
+        é uma meta tag muito importante, deixa o site responsivel -->
+        <meta name="viewport" 
+        content="width=device-width, initial-scale=1.0">
+        <!-- integrando ao css -->
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <!-- a tag style funciona como um css dentro do código de
+        html, sem ter que colocar link -->
+        <style>
+            span {color: #008000}
+            p {color: #BF181D}
+        </style>
+    </head>
+    <body>
+        <h1>Teste no h1</h1>
+        <h3>teste no h3</h3>
+
+        <h3>Alunos Aprovados</h3>
+        <div id="alunos-aprovados">
+            <p><span>Ana Luiza</span></p>
+            <p><span>Matheus</span></p>
+            <p><span>Marinete</span></p>
+            <p><span>Beto</span></p>
+        </div>
+        <h3>Alunos Reprovados</h3>
+        <div id="alunos-reprovados">
+            <p>Júlio</p>
+            <p>Freddy</p>
+            <p>Jorge</p>
+            <p>Fátima</p>
+        </div>
+    </body>
+</html>
